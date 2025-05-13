@@ -1,9 +1,4 @@
-```markdown
 # Human-Machine Collaborative Crisis Response Framework (HMC-CRF)
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://example.com/paper.pdf)
-
 A reinforcement learning-based framework for trusted multi-agent collaboration in emergency management scenarios.
 
 ---
