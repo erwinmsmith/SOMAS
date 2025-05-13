@@ -1,6 +1,6 @@
 {
   "api_keys": {
-    "deepseek_chat": "sk-49b745d77b9d453eb7f92e037876ae95"
+    "deepseek_chat": "yours"
   },
   "agents": {
     "planner": {
@@ -31,20 +31,20 @@
     "epochs": 3
   },
   "model_paths": {
-    "local_model": "/root/autodl-tmp/Agent/safety_oriented_mas/Qwen3-1.7B/",
-    "embedding_model": "/root/autodl-tmp/Agent/safety_oriented_mas/bge-small-en-v1.5/"
+    "local_model": "safety_oriented_mas/Qwen3-1.7B/",
+    "embedding_model": "safety_oriented_mas/bge-small-en-v1.5/"
   },
   "actor": {
     "model_paths": {
-      "local_model": "/root/autodl-tmp/Agent/safety_oriented_mas/Qwen3-1.7B/"
+      "local_model": "safety_oriented_mas/Qwen3-1.7B/"
     },
     "max_new_tokens": 512,
     "temperature": 0.7
   },
   "rewarder": {
-    "api_key": "sk-49b745d77b9d453eb7f92e037876ae95",
+    "api_key": "yours",
     "model_paths": {
-      "local_model": "/root/autodl-tmp/Agent/safety_oriented_mas/Qwen3-1.7B/"
+      "local_model": "safety_oriented_mas/Qwen3-1.7B/"
     },
     "max_new_tokens": 512,
     "temperature": 0.7
