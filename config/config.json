@@ -1,0 +1,37 @@
+{
+    "api_keys": {
+        "deepseek_chat": "sk-992022cc24e84cee9fb7fe9d0816e16a",
+        "openai": ""
+    },
+    "model_paths": {
+        "local_model": "/root/autodl-tmp/Agent/safety_oriented_mas/Qwen3-1.7B/",
+        "embedding_model": "/root/autodl-tmp/Agent/safety_oriented_mas/bge-small-en-v1.5/"
+    },
+    "database_paths": {
+        "rules_db": "database/rules.json",
+        "knowledge_db": "database/knowledge.jsonl",
+        "experience_pool": "database/experience_pool.json",
+        "vector_db": "database/vector_db"
+    },
+    "ppo_config": {
+        "sample_size": 100,
+        "batch_size": 50
+    },
+    "rewarder": {
+        "api_key": "sk-992022cc24e84cee9fb7fe9d0816e16a",
+        "safety_weights": {
+            "harmful_content": 0.4,
+            "privacy_leak": 0.3,
+            "misinformation": 0.3
+        },
+        "usefulness_weights": {
+            "relevance": 0.5,
+            "accuracy": 0.3,
+            "timeliness": 0.2
+        },
+        "completeness_weights": {
+            "detail_level": 0.6,
+            "coverage": 0.4
+        }
+    }
+}

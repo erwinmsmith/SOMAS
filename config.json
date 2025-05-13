@@ -1,0 +1,52 @@
+{
+  "api_keys": {
+    "deepseek_chat": "sk-49b745d77b9d453eb7f92e037876ae95"
+  },
+  "agents": {
+    "planner": {
+      "prompt_path": "prompts/planner.txt",
+      "description": "规划agent，负责制定行动计划"
+    },
+    "actor": {
+      "prompt_path": "prompts/actor.txt",
+      "description": "执行agent，负责执行具体任务"
+    },
+    "rewarder": {
+      "prompt_path": "prompts/rewarder.txt",
+      "description": "评估agent，负责评估执行结果"
+    },
+    "quiz_master": {
+      "prompt_path": "prompts/quiz_master.txt",
+      "description": "问答agent，负责生成测试问题"
+    }
+  },
+  "database": {
+    "experience_pool": "data/experience_pool.json",
+    "knowledge_db": "data/knowledge_db.json"
+  },
+  "ppo_config": {
+    "sample_size": 100,
+    "learning_rate": 3e-5,
+    "batch_size": 50,
+    "epochs": 3
+  },
+  "model_paths": {
+    "local_model": "/root/autodl-tmp/Agent/safety_oriented_mas/Qwen3-1.7B/",
+    "embedding_model": "/root/autodl-tmp/Agent/safety_oriented_mas/bge-small-en-v1.5/"
+  },
+  "actor": {
+    "model_paths": {
+      "local_model": "/root/autodl-tmp/Agent/safety_oriented_mas/Qwen3-1.7B/"
+    },
+    "max_new_tokens": 512,
+    "temperature": 0.7
+  },
+  "rewarder": {
+    "api_key": "sk-49b745d77b9d453eb7f92e037876ae95",
+    "model_paths": {
+      "local_model": "/root/autodl-tmp/Agent/safety_oriented_mas/Qwen3-1.7B/"
+    },
+    "max_new_tokens": 512,
+    "temperature": 0.7
+  }
+}
