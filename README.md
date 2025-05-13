@@ -61,3 +61,5 @@ main.py --offline
 - **VL models** reduced operational risks by **30%** via image semantic parsing.  
 - **Dynamic safety validation** improved helpfulness by **15%** over ToolEmu.  
 ---
+### Others
+If you need a detailed data for Safty(train or  test), contact me duanzhenke@sscapewh.com
