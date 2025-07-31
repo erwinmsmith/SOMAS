@@ -62,4 +62,4 @@ main.py --offline
 - **Dynamic safety validation** improved helpfulness by **15%** over ToolEmu.  
 ---
 ### Others
-If you need a detailed data for Safty(train or  test), contact me duanzhenke@sscapewh.com
+If you need a detailed data for Safty(train or  test), contact me duanzhenke@sscapewh.com/duanzhenke03@gmail.com
