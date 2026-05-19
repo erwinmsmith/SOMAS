@@ -1,5 +1,5 @@
 # Safety-Oriented Multi-agent System
-A Trusted Human-Multi-Agent Reinforcement Learning Interaction Framework
+A Trusted Human-Multi-Agent Online and Offline Reinforcement Learning Interaction Framework
 
 ---
 
