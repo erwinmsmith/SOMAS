@@ -10,7 +10,7 @@ This repository implements a **Multi-Agent System (MAS)** framework for human-ma
 - **Dynamic Trust Mechanism**: Balances task utility and safety constraints through RL.
 
 **Key Contributions**:
-1. Dual-mode architecture (online execution + offline simulation).
+1. Dual-mode architecture.
 2. First fine-tuned safe LLM and training dataset for emergency scenarios.
 3. 15% improvement in helpfulness and 40% reduction in risk response rate compared to baseline.
 
