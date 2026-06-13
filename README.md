@@ -64,4 +64,3 @@ main.py --offline
 ### Others
 If you need a detailed data for Safty(train or test), contact me duanzhenke@sscapewh.com/duanzhenke03@gmail.com
 
-删掉这个话
