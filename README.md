@@ -47,19 +47,6 @@ main.py --offline
 2. **Offline Simulation System**  
    - **Task Generation**: Synthetic tasks from manual records and prior knowledge.  
    - **Experience Replay**: Optimizes RL policies for dynamic environments.  
-
----
-
-## 📊 Experimental Results
-
-### Key Metrics
-| Domain      | Model              | Safety (↑) | Helpfulness (↑) | Risk Response Rate (↓) |
-|-------------|--------------------|------------|-----------------|-------------------------|
-| Safety-CV   | Qwen2-7B-VL        | **4.5**    | **4.7**         | **40%**                 |
-
-### Highlights
-- **VL models** reduced operational risks by **30%** via image semantic parsing.  
-- **Dynamic safety validation** improved helpfulness by **15%** over ToolEmu.  
 ---
 ### Others
 If you need a detailed data for Safty(train or test), contact me duanzhenke@sscapewh.com/duanzhenke03@gmail.com
