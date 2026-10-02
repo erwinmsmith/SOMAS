@@ -3,7 +3,7 @@ A Trusted Human-Multi-Agent Online and Offline Reinforcement Learning Interactio
 
 ---
 
-## 📖 Introduction
+## Introduction
 This repository implements a **Multi-Agent System (MAS)** framework for human-machine collaborative crisis response, combining **vision-language models (VL)** and **reinforcement learning (RL)** to enhance safety and reliability. The framework features:
 - **Real-Time Task Execution**: Modular task chains with built-in safety rules and human oversight.
 - **Simulation Training**: Experience replay library for risk prediction and optimization.
@@ -16,7 +16,7 @@ This repository implements a **Multi-Agent System (MAS)** framework for human-ma
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 ```bash
@@ -36,7 +36,7 @@ main.py --online
 main.py --offline
 ```
 ---
-## 🧠 Framework Architecture
+## Framework Architecture
 ![](assets/architecture.png)
 
 ### Core Components
